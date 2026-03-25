@@ -120,7 +120,7 @@ def carta_a_ascii(carta):
     return [
         "┌─────────┐",
         f"│{valor.ljust(3)}      │",           # valor izq (3) + 6 espacios = 9
-        f"│{' ' * espacios_izq}{palo_str}{' ' * espacios_der}│",  # palo centrado
+        f"│{' ' * espacios_izq}{palo_str}{' ' * espacios_der}│",   # palo centrado
         f"│      {valor.rjust(3)}│",            # 6 espacios + valor der (3) = 9
         "└─────────┘",
     ]

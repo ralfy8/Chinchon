@@ -369,7 +369,7 @@ ahora, haz que los comodines sirvan para completar cosas, por ejemplo si yo teng
 ahora, quiero que cuando vaya a descartar, apareza las cartas numeradas como estaban antes, para asi poder elegir que voy a descartar, porque ahora solo aparecen las cartas sin su numeracion del 1 al 8 respectivo
 
 🟦 Prompt 100
-
+y ahora añademe, que solo sea valido cerrar, con una carta de valor inferior a 3 incluido este
 
 
 🟦 Prompt 101
