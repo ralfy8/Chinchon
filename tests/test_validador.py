@@ -48,3 +48,26 @@ def test_es_chinchon_invalido():
     ]
 
     assert es_chinchon(cartas) is False
+
+
+def test_chinchon_con_comodin():
+    from model.jugador import Jugador
+    from game.chinchon_funcs.calcular_puntos_jugador import calcular_puntos_jugador
+
+    # Crear comodín
+    class Comodin:
+        def __init__(self):
+            self.tipo = "comodin"
+            self.nombre = "test"
+            self.valor = None
+            self.palo = None
+
+    jugador = Jugador("Test")
+    cartas = [
+        Carta("oros", 1), Carta("oros", 2), Carta("oros", 3), Carta("oros", 4),
+        Carta("oros", 5), Carta("oros", 7), Comodin()
+    ]
+    jugador.mano = cartas
+
+    puntos = calcular_puntos_jugador(jugador)
+    assert puntos == -10, f"Esperado -10, obtenido {puntos}"

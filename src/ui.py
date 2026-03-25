@@ -62,10 +62,10 @@ def leer_opcion(msg="Selecciona una opción: "):
 
 
 SIMBOLOS_PALOS = {
-    "oros": "♦",
-    "copas": "♥",
-    "espadas": "♠",
-    "bastos": "♣",
+    "oros": "🪙",
+    "copas": "🍷",
+    "espadas": "⚔️",
+    "bastos": "🪵",
 }
 
 
@@ -119,7 +119,7 @@ def carta_a_ascii(carta):
 
     return [
         "┌─────────┐",
-        f"│{valor.ljust(3)}       │",           # valor izq (3) + 6 espacios = 9
+        f"│{valor.ljust(3)}      │",           # valor izq (3) + 6 espacios = 9
         f"│{' ' * espacios_izq}{palo_str}{' ' * espacios_der}│",  # palo centrado
         f"│      {valor.rjust(3)}│",            # 6 espacios + valor der (3) = 9
         "└─────────┘",

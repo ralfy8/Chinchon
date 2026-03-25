@@ -355,3 +355,21 @@ testeame todo el codigo, en busca de bugs, vulnerabilidades y fallos
 conociendo todo mi preoyecto, creame un archivo dentro de ci.yml
 
 Le di los errores que me salian, para que me los corrigiese
+
+🟦 Prompt 96
+quiero que ahora añadas, que la opcion de cerrar, este despues de ver las cartas que tienes, despues de haber robado carta y elegir que hacer con ella
+
+🟦 Prompt 97
+ahora quiero que, a la hora de cerrar, puedas elegir que carta tirar de todas las que tienes en la mano, y que cuando cierras con 8 cartas, la carta con la que cierres, no cuente para la puntuacion
+
+🟦 Prompt 98
+ahora, haz que los comodines sirvan para completar cosas, por ejemplo si yo tengo un 1 de oros y un 3 de oros, teniendo un comodin, lo pueda usar para completar la escalera en este caso
+
+🟦 Prompt 99
+ahora, quiero que cuando vaya a descartar, apareza las cartas numeradas como estaban antes, para asi poder elegir que voy a descartar, porque ahora solo aparecen las cartas sin su numeracion del 1 al 8 respectivo
+
+🟦 Prompt 100
+
+
+
+🟦 Prompt 101

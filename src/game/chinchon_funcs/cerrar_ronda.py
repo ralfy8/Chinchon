@@ -6,6 +6,8 @@ from game.chinchon_funcs.aplicar_penalizacion_comodines_no_usados import aplicar
 
 def cerrar_ronda(game, jugador_cierra):
     game.limpiar()
+    # Al cerrar, el jugador elige una carta para tirar
+    game._procesar_descarte(jugador_cierra)
     mostrar_resumen_ronda(game, jugador_cierra)
     calcular_y_mostrar_puntuaciones(game)
     resultado = procesar_eliminaciones_y_ganador(game, game.limpiar, game.escribir, game.colores)
