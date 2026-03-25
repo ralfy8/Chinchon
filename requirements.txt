@@ -3,7 +3,7 @@
 # No se requieren paquetes externos
 
 # Descargar, o copiar el proyecto:
-https://github.com/ralfy8/Chinchon
+#https://github.com/ralfy8/Chinchon
 
 # Para ejecutar el juego:
 # python src/ui.py
